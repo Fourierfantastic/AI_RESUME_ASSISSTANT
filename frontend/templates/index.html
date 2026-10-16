@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Resume Assistant | Portfolio</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="/" class="logo">AI<span>Resume</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="/chat" class="nav-button">AI Assistant ↗</a>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="tag">Python Developer | AI Engineering</span>
+
+                <h1>Hi, I'm <span>Sonu Kumar</span></h1>
+
+                <h2>Building intelligent solutions with AI.</h2>
+
+                <p>
+                    I enjoy building AI-powered applications, solving
+                    technical problems, and developing useful software
+                    using Python and modern backend technologies.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="/chat" class="primary-button">
+                        Chat with My Resume →
+                    </a>
+
+                    <a href="#projects" class="secondary-button">
+                        Explore Projects
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="avatar">SK</div>
+                <h3>AI Engineering</h3>
+                <p>Python · FastAPI · Machine Learning</p>
+                <span class="status">Building and learning</span>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <span class="tag">INTRODUCTION</span>
+            <h2>About Me</h2>
+
+            <p class="section-description">
+                I'm a Computer Science student interested in Python,
+                artificial intelligence, backend development, and
+                building practical software projects.
+                I focus on understanding concepts and applying them
+                to real-world problems.
+            </p>
+        </section>
+
+        <section id="skills" class="section">
+            <span class="tag">MY EXPERTISE</span>
+            <h2>Technical Skills</h2>
+
+            <div class="grid">
+                <article class="card">
+                    <div class="card-icon">Py</div>
+                    <h3>Python</h3>
+                    <p>Programming and application development</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">API</div>
+                    <h3>FastAPI</h3>
+                    <p>Backend APIs and AI integrations</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">AI</div>
+                    <h3>AI Engineering</h3>
+                    <p>LLM integration and AI applications</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">DB</div>
+                    <h3>Databases</h3>
+                    <p>Data storage and database integration</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <span class="tag">MY WORK</span>
+            <h2>Featured Projects</h2>
+
+            <div class="grid">
+                <article class="card project-card">
+                    <span class="project-label">AI PROJECT</span>
+                    <h3>AI Resume Assistant</h3>
+                    <p>
+                        An AI chatbot that answers questions using
+                        information extracted from an existing PDF resume.
+                    </p>
+                    <p class="tech">Python · FastAPI · Groq · PyPDF</p>
+                    <a href="/chat" class="text-link">
+                        Try AI Assistant →
+                    </a>
+                </article>
+
+                <article class="card project-card">
+                    <span class="project-label">WEB DEVELOPMENT</span>
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A portfolio website showcasing technical skills,
+                        projects, and an interactive AI assistant.
+                    </p>
+                    <p class="tech">Flask · HTML · CSS · JavaScript</p>
+                    <a href="#home" class="text-link">
+                        View Portfolio ↑
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <span class="tag">GET IN TOUCH</span>
+            <h2>Let's Connect</h2>
+
+            <p>
+                Interested in AI engineering, software development,
+                and building useful applications.
+            </p>
+
+            <a href="mailto:your-email@example.com"
+               class="primary-button">
+                Contact Me →
+            </a>
+
+            <p class="note">
+                Replace this example email with your actual email address.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Sonu Kumar · Built with Python and Flask</p>
+    </footer>
+
+</body>
+</html>
