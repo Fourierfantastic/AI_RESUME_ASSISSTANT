@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+flask
+requests
+groq
+python-dotenv
+pypdf
